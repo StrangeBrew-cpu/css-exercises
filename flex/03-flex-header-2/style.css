@@ -6,12 +6,17 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8pt;
 }
 
 .profile-image {
@@ -29,12 +34,30 @@ body {
   font-style: italic;
 }
 
+.notifications {
+  font-weight: bold;
+}
+
+.loglinks {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16pt;
+}
+
+.notimage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16pt;
+}
+
+
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 4pt 24pt ;
 }
 
 a {
@@ -45,4 +68,8 @@ a {
 
 ul {
   list-style-type: none;
+  gap: 16pt;
+  display: flex;
 }
+
+
